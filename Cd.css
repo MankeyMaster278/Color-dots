@@ -1,4 +1,37 @@
 body {
-    background-image: "https://sociorocketnewsen.files.wordpress.com/2015/07/tumblr_nsbsojabhk1qze3hdo1_r2_500.gif?w=580";
-    
+    background:url("https://sociorocketnewsen.files.wordpress.com/2015/07/tumblr_nsbsojabhk1qze3hdo1_r2_500.gif?w=580");
+    background-size:100% 100%;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+
+div {
+    height: 150px;
+    width: 150px;
+    border: 5px solid gray;
+    background: lightgreen;
+    border-radius: 100%;
+}
+
+div#purple {
+    background: #00cc00;
+    border: 6px dotted #009900;
+}
+
+div#orange {
+    background: #660066;
+    border: 6px dashed #330033;
+}
+
+div#yellow {
+    background: #ff9900;
+    border: 6px solid #cc7a00;
+
+}
+
+
