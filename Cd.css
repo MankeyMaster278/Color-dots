@@ -13,25 +13,28 @@ body {
 div {
     height: 150px;
     width: 150px;
-    border: 5px solid gray;
-    background: lightgreen;
+    border: 5px solid;
     border-radius: 100%;
     
 }
 
-div#purple {
-    background: #00cc00;
-    border: 6px dotted #009900;
+div#fancy {
+    background: blue;
+    border: 5px dashed black;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-div#orange {
-    background: #660066;
-    border: 6px dashed #330033;
-}
-
-div#yellow {
-    background: #ff9900;
-    border: 6px solid #cc7a00;
+div#fancy:hover{
+    font-weight:bold;
+    box-shadow: 0 0 5px white;
 
 }
 
